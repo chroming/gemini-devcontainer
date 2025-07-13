@@ -7,5 +7,8 @@
     }
   },
   "postCreateCommand": "npm install -g @google/gemini-cli",
+  "mounts": [
+    "source=gemini-config,target=/home/vscode/.gemini,type=volume"
+  ],
   "remoteUser": "vscode"
 }
